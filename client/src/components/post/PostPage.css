@@ -1,0 +1,60 @@
+.post-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.post-cover {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.post-author,
+.post-date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.post-content {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.post-content a {
+    text-decoration: none;
+    color: blue;
+}
+
+.edit {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    width: 60px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.edit:hover {
+    background: #ddd;
+}
