@@ -45,6 +45,11 @@ function App() {
             <Layout Children={<EditPost />} />
           </main>
         } />
+        <Route exact path='/*' element={
+          <main>
+            <Layout Children={<p>404 page not found</p>} />
+          </main>
+        } />
 
 
 

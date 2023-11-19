@@ -63,9 +63,31 @@ a {
 }
 
 .summary {
-    font-size: .7rem;
-    margin: 6px 0px;
-    font-weight: bold;
+    font-size: 0.7rem;
+    margin: 6px 0;
+    font-weight: 600;
     color: #888;
+    max-height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
 
+@media screen and (max-width : 600px) {
+    .post {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .summary {
+        -webkit-line-clamp: 3;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .post {
+        grid-template-columns: 1fr;
+    }
 }

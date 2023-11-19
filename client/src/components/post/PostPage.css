@@ -2,7 +2,6 @@
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f9f9f9;
 }
 
 .post-cover {
@@ -33,7 +32,7 @@
 .post-content {
     line-height: 1.6;
     font-size: 1.1em;
-    color: #555;
+    color: #595959;
 }
 
 .post-content a {
@@ -57,4 +56,10 @@
 
 .edit:hover {
     background: #ddd;
+}
+
+@media screen and (max-width:600px) {
+    .post-container {
+        padding: 0px;
+    }
 }

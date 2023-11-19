@@ -70,3 +70,26 @@ button:hover {
     color: blue;
     text-decoration: none;
 }
+
+.error-message {
+    margin: 5px 0px;
+    color: red;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+}
+
+.password-toggle:hover {
+    color: #3498db;
+}
